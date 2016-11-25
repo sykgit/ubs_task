@@ -1,0 +1,27 @@
+Exercise:
+ 
+Given the supplied tab delimited input file (src/test/resources/FILE.DAT), 
+write a Java program that loads the data and determines the average amount in Euros (EUR), grouped by Country and Credit Rating.
+ 
+If a country is not available, the city should be used instead.
+ 
+Exchange Rates:
+GBP -> USD  = 1.245
+CHF -> USD  = .99
+EUR -> USD  = 1.10
+ 
+Rules:
+ 
+1.  This exercise should be treated as a regular work task (i.e. apply usual professional dev practices: unit tests, etc.).
+2.  The candidate must work independently, no collaboration is permitted.
+3.  The candidate may conduct research either online or offline as they see fit, in order to complete the task.
+4.  The program should read a file from the console and produce formatted output back to the console.
+5.  On completion, the resulting files must be emailed to robert.litvin@ubs.com or uploaded to github for review.
+
+Output Format:
+
+Country     	Credit Rating	Average
+_______________________________________________________
+NOR         	B           	12345678910112131415.00
+RUS         	Aaa-        	-12356.00
+UK          	A           	-123456789.00
